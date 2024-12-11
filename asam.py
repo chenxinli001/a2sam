@@ -7,7 +7,7 @@ from utils import init_weights,init_weights_orthogonal_normal
 import torch.nn.functional as F
 from torch.distributions import Normal, Independent
 
-#导入一些必须的类
+
 class Encoder(nn.Module):
     """
     A convolutional neural network, consisting of len(num_filters) times a block of no_convs_per_block convolutional layers,
@@ -189,7 +189,6 @@ class Fcomb_box(nn.Module):
         repeat_idx = [1] * a.dim()
         repeat_idx[dim] = n_tile
         a = a.repeat(*(repeat_idx))
-        # 确保 order_index 在与 a 相同的设备上
         order_index = torch.LongTensor(np.concatenate([init_dim * np.arange(n_tile) + i for i in range(init_dim)])).to(a.device)
         return torch.index_select(a, dim, order_index)
 
