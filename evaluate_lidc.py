@@ -8,7 +8,7 @@ from torchvision import transforms
 from utils import (
     generalized_energy_distance_iou, hm_iou_cal, dice_max_cal2
 )
-from lidc_data import LIDC_IDRI, RandomGenerator
+from lidc_dataset import LIDC_IDRI, RandomGenerator
 from asam import ASAM
 
 # Configure logging
