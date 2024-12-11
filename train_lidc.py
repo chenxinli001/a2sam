@@ -3,7 +3,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader, Subset
-from load_LIDC_data import LIDC_IDRI, RandomGenerator
+from lidc_dataset import LIDC_IDRI, RandomGenerator
 from utils import l2_regularisation, kl_divergence, calculate_dice_loss, calculate_sigmoid_focal_loss
 from torchvision import transforms
 from tensorboardX import SummaryWriter
