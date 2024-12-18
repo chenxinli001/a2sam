@@ -23,11 +23,36 @@ pip install -r requirements.txt
 
 ## Quick Start
 
-```python
-python train_lidc.py
-python train_sim10k.py
+### Training
+
+```bash
+# Train on LIDC dataset
+python train_lidc.py --batch-size 16 --epochs 100 --lr 1e-4
+
+# Train on Sim10k dataset
+python train_sim10k.py --batch-size 16 --epochs 100 --lr 1e-4
 ```
 
+### Evaluation
+
+```bash
+# Evaluate on LIDC test set
+python test_lidc.py --checkpoint path/to/checkpoint.pth
+
+# Evaluate on Sim10k test set
+python test_sim10k.py --checkpoint path/to/checkpoint.pth
+```
+
+### Main Arguments
+
+- `--batch-size`: Batch size for training (default: 16)
+- `--epochs`: Number of training epochs (default: 100)
+- `--lr`: Learning rate (default: 1e-4)
+- `--checkpoint`: Path to model checkpoint for testing
+- `--data-dir`: Path to dataset directory
+- `--output-dir`: Directory to save results
+
+For more detailed configurations, please check the argument parser in each script.
 
 ## Citation
 
