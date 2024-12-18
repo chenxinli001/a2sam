@@ -1,4 +1,4 @@
-![QQ_1734528930159](https://github.com/user-attachments/assets/c5377b81-1e7c-4915-a723-dd99a4cee08c)# A2SAM: Flaws can be Applause
+# A2SAM: Flaws can be Applause
 
 [NeurIPS 2024] Flaws can be Applause: Unleashing Potential of Segmenting Ambiguous Objects in SAM
 
