@@ -1,4 +1,4 @@
-# A2SAM: Flaws can be Applause
+![QQ_1734528930159](https://github.com/user-attachments/assets/c5377b81-1e7c-4915-a723-dd99a4cee08c)# A2SAM: Flaws can be Applause
 
 [NeurIPS 2024] Flaws can be Applause: Unleashing Potential of Segmenting Ambiguous Objects in SAM
 
@@ -53,6 +53,12 @@ python test_sim10k.py --checkpoint path/to/checkpoint.pth
 - `--output-dir`: Directory to save results
 
 For more detailed configurations, please check the argument parser in each script.
+
+## Pre-trained Models and Datasets
+
+The pre-trained weights for the LIDC dataset and the processed Sim10k dataset are available on Hugging Face. You can access them at the following link:
+
+- [Hugging Face Repository](https://huggingface.co/yu2hi13/asam/tree/main)
 
 ## Citation
 
