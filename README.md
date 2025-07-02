@@ -1,9 +1,9 @@
+
 # A2SAM: Flaws can be Applause
 
 [NeurIPS 2024] Flaws can be Applause: Unleashing Potential of Segmenting Ambiguous Objects in SAM
 
-- **[Project Homepage](https://a-sa-m.github.io/)**
-- **[Paper (NeurIPS 2024)](https://proceedings.neurips.cc/paper_files/paper/2024/file/50ee6db59fca8643dc625829d4a0eab9-Paper-Conference.pdf)**
+ 🌐 **[Project Homepage](https://a-sa-m.github.io/)** 📄 **[Paper (NeurIPS 2024)](https://proceedings.neurips.cc/paper_files/paper/2024/file/50ee6db59fca8643dc625829d4a0eab9-Paper-Conference.pdf)** 🤗 **[HF Model & Dataset](https://huggingface.co/yu2hi13/asam/tree/main)**
 
 ## Introduction
 
@@ -63,7 +63,7 @@ For more detailed configurations, please check the argument parser in each scrip
 The pre-trained weights for the LIDC dataset and the processed Sim10k dataset are available on Hugging Face.  
 You can access them at the following link:
 
-- [Hugging Face Repository](https://huggingface.co/yu2hi13/asam/tree/main)
+- 🤗 **[Hugging Face Repository](https://huggingface.co/yu2hi13/asam/tree/main)**
 
 ## Citation
 
@@ -77,4 +77,3 @@ If you find this work useful in your research, please consider citing:
     year={2024},
     url={https://proceedings.neurips.cc/paper_files/paper/2024/file/50ee6db59fca8643dc625829d4a0eab9-Paper-Conference.pdf}
 }
-```
