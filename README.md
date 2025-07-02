@@ -2,9 +2,13 @@
 
 [NeurIPS 2024] Flaws can be Applause: Unleashing Potential of Segmenting Ambiguous Objects in SAM
 
+- **[Project Homepage](https://a-sa-m.github.io/)**
+- **[Paper (NeurIPS 2024)](https://proceedings.neurips.cc/paper_files/paper/2024/file/50ee6db59fca8643dc625829d4a0eab9-Paper-Conference.pdf)**
+
 ## Introduction
 
-This repository contains the official implementation of our paper "Flaws can be Applause: Unleashing Potential of Segmenting Ambiguous Objects in SAM" (NeurIPS 2024). A2SAM is a novel approach that leverages the inherent ambiguities in object segmentation to improve the performance of the Segment Anything Model (SAM).
+This repository contains the official implementation of our paper ["Flaws can be Applause: Unleashing Potential of Segmenting Ambiguous Objects in SAM" (NeurIPS 2024)](https://proceedings.neurips.cc/paper_files/paper/2024/file/50ee6db59fca8643dc625829d4a0eab9-Paper-Conference.pdf).  
+A2SAM is a novel approach that leverages the inherent ambiguities in object segmentation to improve the performance of the Segment Anything Model (SAM).
 
 ## Features
 
@@ -56,7 +60,8 @@ For more detailed configurations, please check the argument parser in each scrip
 
 ## Pre-trained Models and Datasets
 
-The pre-trained weights for the LIDC dataset and the processed Sim10k dataset are available on Hugging Face. You can access them at the following link:
+The pre-trained weights for the LIDC dataset and the processed Sim10k dataset are available on Hugging Face.  
+You can access them at the following link:
 
 - [Hugging Face Repository](https://huggingface.co/yu2hi13/asam/tree/main)
 
@@ -67,8 +72,9 @@ If you find this work useful in your research, please consider citing:
 ```bibtex
 @inproceedings{a2sam2024,
     title={Flaws can be Applause: Unleashing Potential of Segmenting Ambiguous Objects in SAM},
-    author={},
+    author={Chenxin Li and Yuzhi Huang and Wuyang Li and Hengyu Liu and Xinyu Liu and Qing Xu and Zhen Chen and Yue Huang and Yixuan Yuan},
     booktitle={Advances in Neural Information Processing Systems},
-    year={2024}
+    year={2024},
+    url={https://proceedings.neurips.cc/paper_files/paper/2024/file/50ee6db59fca8643dc625829d4a0eab9-Paper-Conference.pdf}
 }
 ```
